@@ -1,4 +1,4 @@
-package com.ouyang.design;
+package design;
 
 import java.util.HashSet;
 import java.util.Set;
