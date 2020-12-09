@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Random;
 
-public class Main {
+public class JDKMain {
     public static void main(String[] args) {
         Tank tank = new Tank();
 
@@ -34,7 +34,7 @@ interface Moveable {
     void run();
 }
 
-class Tank implements Moveable {
+final class Tank implements Moveable {
 
     @Override
     public void run() {
